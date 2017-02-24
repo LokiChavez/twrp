@@ -107,6 +107,8 @@ ifneq ($(TARGET_USERIMAGES_USE_EXT4), true)
     LOCAL_STATIC_LIBRARIES += liblz4
 endif
 
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
+
 LOCAL_MODULE_PATH := $(TARGET_RECOVERY_ROOT_OUT)/sbin
 
 #TWRP Build Flags
